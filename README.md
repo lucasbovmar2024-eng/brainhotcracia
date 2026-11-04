@@ -15,3 +15,11 @@ O projeto é estático: não precisa de instalação de dependências ou etapa d
 - Prova do Oráculo: perguntas sobre a lore do reino.
 
 Os recordes ficam no navegador do visitante. Não há login, banco de dados ou coleta de pontuações no servidor.
+
+## Vida no reino
+
+- Passaporte: nome, título fictício e ordem revelada pelo Oráculo existente, com ficha de habitante e lembrança em texto para download.
+- Tribunal do Cringe: seis casos fictícios com três sentenças possíveis e um histórico pessoal dos últimos vereditos.
+- Decretos do rei: sete desafios criativos; a cada visita, o desafio muda. As respostas ficam num histórico pessoal.
+
+O passaporte e as escolhas são salvos somente no localStorage do navegador do visitante. Sem acesso ao armazenamento, a experiência continua na sessão atual. Os campos de texto são exibidos como texto, sem executar HTML.
